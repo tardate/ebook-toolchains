@@ -1,0 +1,8 @@
+= eBook Toolchain Templates
+
+This is a simple test of various open-source or otherwise freely available toolchains for producing ebooks.
+
+This is by no means a comprehensive survey. Tools that are demonstrated here probably share all of the following qualities:
+* open-source or public domain
+* source files may be stored in a non-proprietary text format
+* entire ebook project is suited to version control (i.e. no reliance on binaries that would need to be merged or regenerated)
