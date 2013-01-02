@@ -8,6 +8,16 @@ This is by no means a comprehensive survey. Tools that are demonstrated here pro
 * entire ebook project is suited to version control (i.e. no reliance on binaries that would need to be merged or regenerated)
 
 
+== Calibre: generating EPUB
+{Calibre}[http://calibre-ebook.com] is a free and open source e-book library management application developed by users of e-books for users of e-books.
+
+=== Key Software Requirements
+Install the {Calibre}[http://calibre-ebook.com/download] application on your system, including command-line tools.
+
+=== Sample Template
+The ./calibre folder contains the sample book project setup to build with Calibre.
+
+
 == pandoc: generating EPUB or PDF
 {pandoc}[http://johnmacfarlane.net/pandoc/] is the open-source swiss-army knife for convert files from one markup format into another.
 Amongst the many formats supported are the ones we're interseted in: EPUB and PDF.

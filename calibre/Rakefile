@@ -1,0 +1,41 @@
+# encoding: UTF-8
+
+require 'rake/clean'
+require 'rdiscount'
+
+namespace :build do
+
+  desc "build EPUB from markdown sources"
+  task :epub do
+
+    book_title = "eBook Toolchains"
+    authors = "Paul Gallagher"
+    out_filename = "ebook-toolchains"
+
+    book_content = %(<html xmlns="http://www.w3.org/1999/xhtml"><head><title>#{book_title}</title></head><body>)
+    chapters_dir = File.expand_path(File.join(File.dirname(__FILE__), "chapters"))
+    Dir[File.join(chapters_dir, '**', '*.m*d*')].sort.each do |input|
+      puts "processing #{input}"
+      content = File.read(input)
+      book_content << RDiscount.new(content).to_html
+    end
+    book_content << "</body></html>"
+
+    html_out = File.expand_path(File.join(File.dirname(__FILE__), "build", "#{out_filename}.html"))
+    epub_out = File.expand_path(File.join(File.dirname(__FILE__), "build", "#{out_filename}.epub"))
+
+    File.open(html_out, 'w') do |output|
+      output.write(book_content)
+    end
+
+    system('ebook-convert', html_out, epub_out,
+           '--cover', 'images/cover.png',
+           '--authors', authors,
+           '--comments', "licensed under the Creative Commons Attribution-Non Commercial-Share Alike 3.0 license",
+           '--level1-toc', '//h:h1',
+           '--level2-toc', '//h:h2',
+           '--level3-toc', '//h:h3',
+           '--language', 'en')
+  end
+
+end
