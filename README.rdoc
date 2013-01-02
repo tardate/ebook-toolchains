@@ -14,6 +14,7 @@ Amongst the many formats supported are the ones we're interseted in: EPUB and PD
 
 === Key Software Requirements
 Install the {pandoc}[http://johnmacfarlane.net/pandoc/installing.html] binaries on your system.
+Note that additional LaTeX software may be required for your platform for PDF production.
 
 === Sample Template
 The ./pandoc folder contains the sample book project setup to build with pandoc.

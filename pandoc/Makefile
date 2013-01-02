@@ -6,7 +6,7 @@ source=chapters/index.md
 title='eBook Toolchains'
 filename='ebook-toolchains'
 
-all: html epub rtf
+all: html epub rtf pdf
 
 epub:
 	pandoc -s $(source) --normalize --smart -t epub -o $(out_dir)/$(filename).epub \
@@ -34,3 +34,14 @@ rtf:
 		--title-prefix $(title) \
 		--normalize \
 		--smart
+
+pdf:
+	# You need `pdflatex`
+	# OS X: http://www.tug.org/mactex/
+	# Then find its path: find /usr/ -name "pdflatex"
+	# Then symlink it: ln -s /path/to/pdflatex /usr/local/bin
+	pandoc -s $(source) -o $(out_dir)/$(filename).pdf \
+		--title-prefix $(title) \
+		--normalize \
+		--smart \
+		--toc
