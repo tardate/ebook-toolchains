@@ -46,6 +46,14 @@ The ./epubbery folder contains the sample book project setup to build with epubb
 produce KF8 and Mobi format files from a variety of source formats including HTML, XHTML or EPUB.
 
 
+== Live Examples Found in the Wild
+There's a growing number of authors who write in public. Sometimes that even means we get to see the mechanics of how books are made!
+Here are some live examples that are interesting studies of how to put together a complex ebook project:
+
+* {Developing Backbone.js Applications}[https://github.com/addyosmani/backbone-fundamentals], written by Addy Osmani.
+* {Pro Git}[https://github.com/progit/progit], written by Scott Chacon and published by Apress.
+
+
 == Other Tools
 
 * {Sigil EPUB Editor}[http://code.google.com/p/sigil/] - a great little tool for directly creating and editing EPUB files.
