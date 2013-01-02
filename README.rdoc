@@ -56,8 +56,13 @@ Here are some live examples that are interesting studies of how to put together 
 
 == Other Tools
 
+* {Apple iBook Author}[http://www.apple.com/ibooks-author/] - if you want to just publish to iTunes bookstore.
 * {Sigil EPUB Editor}[http://code.google.com/p/sigil/] - a great little tool for directly creating and editing EPUB files.
 * {Scrivener 2}[http://www.literatureandlatte.com/scrivener.php] - a complete writing studio, including ebook export. It's a commercial tool, but the small license fee is probably well worth it if you are a serious professional writer.
+
+Software reviews:
+* {MobileRead Wiki Book authoring software review}[http://wiki.mobileread.com/wiki/Book_authoring_software] - pretty comprehensive coverage of all the options.
+* {TopTenREVIEWS 2013 eBook Software Products}[http://ebooks-software-review.toptenreviews.com/] - commercial software comparisons.
 
 
 == Contributing to eBook Toolchains
