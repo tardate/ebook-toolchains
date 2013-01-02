@@ -38,7 +38,7 @@ The ./pandoc folder contains the sample book project setup to build with pandoc.
 All software is installed as ruby gems. See epubbery/Gemfile and install with bundler by running `bundle`.
 
 === Sample Template
-The ./epubbery folder contains the sample book project setup to build with epubbery.
+The ./epubbery folder contains the sample book project setup to build with epubbery. This is a very bare example right now.
 
 
 == kindlegen: generating Mobi from EPUB
@@ -50,3 +50,15 @@ produce KF8 and Mobi format files from a variety of source formats including HTM
 
 * {Sigil EPUB Editor}[http://code.google.com/p/sigil/] - a great little tool for directly creating and editing EPUB files.
 * {Scrivener 2}[http://www.literatureandlatte.com/scrivener.php] - a complete writing studio, including ebook export. It's a commercial tool, but the small license fee is probably well worth it if you are a serious professional writer.
+
+
+== Contributing to eBook Toolchains
+
+Contributions are most welcome! If you have examples of using other tools, or improvements to the existing examples, please do think about adding to this collection.
+
+Simply fork the repository, make your changes and send a pull-request.
+
+== Copyright
+
+Copyright (c) 2012 Paul Gallagher. See LICENSE for further details.
+
