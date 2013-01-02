@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" 
+            xmlns:dc="http://purl.org/dc/elements/1.1/" 
+            unique-identifier="bookid" version="2.0">
+  <metadata>
+    <dc:title>eBook Toolchains</dc:title>
+    <dc:creator>Paul Gallagher</dc:creator>
+    <dc:identifier id="bookid">urn:uuid:e4584460-3714-0130-da25-442c032ff575</dc:identifier>
+    <dc:language>en-US</dc:language>
+    <dc:date>2013-01-02</dc:date>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc:rights>
+    <meta name="cover" content="cover-image" /> 
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="cover" href="title.html" media-type="application/xhtml+xml"/>
+    <item id="end_of_book" href="end_of_book.html" media-type="application/xhtml+xml"/>
+    
+      <item id="chapter_00_prelude_html" href="00-prelude.html" media-type="application/xhtml+xml"/>
+    
+      <item id="chapter_01_introduction_html" href="01-introduction.html" media-type="application/xhtml+xml"/>
+    
+    
+      <item id="image_made_by_obf.jpg" href="images/made_by_obf.jpg" media-type="image/jpeg"/>
+    
+    
+    <item id="css_fonts.css" href="fonts.css" media-type="text/css"/>
+    
+    <item id="css_print.css" href="print.css" media-type="text/css"/>
+    
+    <item id="css_stylesheet.css" href="stylesheet.css" media-type="text/css"/>
+    
+    
+    <item id="font_BergamoStd-Bold.otf" href="fonts/BergamoStd-Bold.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_BergamoStd-BoldItalic.otf" href="fonts/BergamoStd-BoldItalic.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_BergamoStd-Italic.otf" href="fonts/BergamoStd-Italic.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_BergamoStd-Regular.otf" href="fonts/BergamoStd-Regular.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_licenses.txt" href="fonts/licenses.txt" media-type="application/x-font-opentype"/>
+    
+    <item id="font_OFLGoudyStM-Italic.otf" href="fonts/OFLGoudyStM-Italic.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_OFLGoudyStM.otf" href="fonts/OFLGoudyStM.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyrepagella-bold.otf" href="fonts/texgyrepagella-bold.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyrepagella-bolditalic.otf" href="fonts/texgyrepagella-bolditalic.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyrepagella-italic.otf" href="fonts/texgyrepagella-italic.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyrepagella-regular.otf" href="fonts/texgyrepagella-regular.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyretermes-bold.otf" href="fonts/texgyretermes-bold.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyretermes-bolditalic.otf" href="fonts/texgyretermes-bolditalic.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyretermes-italic.otf" href="fonts/texgyretermes-italic.otf" media-type="application/x-font-opentype"/>
+    
+    <item id="font_texgyretermes-regular.otf" href="fonts/texgyretermes-regular.otf" media-type="application/x-font-opentype"/>
+    
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="yes"/>
+    
+      <itemref idref="chapter_00_prelude_html"/>
+    
+      <itemref idref="chapter_01_introduction_html"/>
+    
+    <itemref idref="end_of_book"/>
+  </spine>
+  <guide>
+    <reference href="title.html" type="cover" title="Cover"/>
+  </guide>
+</package>

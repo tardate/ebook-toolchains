@@ -1,0 +1,8 @@
+---
+:book_title: eBook Toolchains
+:author: Paul Gallagher
+:epubcheck: /opt/epubcheck/epubcheck-1.1.jar
+:file_name: ebook-toolchains.epub
+:chapter_glob: ./chapters/*.txt
+:temp_epub_folder: epub
+:default_template: chapter

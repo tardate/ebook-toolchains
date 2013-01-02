@@ -1,0 +1,8 @@
+source :rubygems
+
+gem 'rake'
+gem 'liquid'
+gem 'RedCloth'
+gem 'loggability'
+gem 'linguistics'
+gem 'uuid'

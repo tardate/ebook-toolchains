@@ -13,6 +13,7 @@ This is by no means a comprehensive survey. Tools that are demonstrated here pro
 
 === Key Software Requirements
 Install the {Calibre}[http://calibre-ebook.com/download] application on your system, including command-line tools.
+Additional software for converting markdown source files are installed as ruby gems. See calibre/Gemfile and install with bundler by running `bundle`.
 
 === Sample Template
 The ./calibre folder contains the sample book project setup to build with Calibre.
@@ -31,9 +32,10 @@ The ./pandoc folder contains the sample book project setup to build with pandoc.
 
 
 == epubbery: generating EPUB
-https://rubygems.org/gems/epubbery
+{epubbery}[https://rubygems.org/gems/epubbery] converts plain text files into EPUB books.
 
 === Key Software Requirements
+All software is installed as ruby gems. See epubbery/Gemfile and install with bundler by running `bundle`.
 
 === Sample Template
 The ./epubbery folder contains the sample book project setup to build with epubbery.
