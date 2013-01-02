@@ -1,8 +1,8 @@
 include_dir=include
 css_dir=stylesheets
 out_dir=build
-image_dir=images
-source=chapters/index.md
+image_dir=../content/images
+source=../content/chapters/*.m*d*
 title='eBook Toolchains'
 filename='ebook-toolchains'
 
