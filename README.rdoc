@@ -19,3 +19,8 @@ Note that additional LaTeX software may be required for your platform for PDF pr
 === Sample Template
 The ./pandoc folder contains the sample book project setup to build with pandoc.
 
+
+== Other Tools
+
+* {Sigil EPUB Editor}[http://code.google.com/p/sigil/] - a great little tool for directly creating and editing EPUB files.
+* {Scrivener 2}[http://www.literatureandlatte.com/scrivener.php] - a complete writing studio, including ebook export. It's a commercial tool, but the small license fee is probably well worth it if you are a serious professional writer.
