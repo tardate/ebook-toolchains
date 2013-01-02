@@ -4,7 +4,3 @@ Welcome to this collection of ebook toolchain templates. It's released under a C
 
 I hope you find this helpful!
 
-# Introduction
-
-By way of introduction...
-

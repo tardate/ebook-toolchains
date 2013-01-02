@@ -30,6 +30,20 @@ Note that additional LaTeX software may be required for your platform for PDF pr
 The ./pandoc folder contains the sample book project setup to build with pandoc.
 
 
+== epubbery: generating EPUB
+https://rubygems.org/gems/epubbery
+
+=== Key Software Requirements
+
+=== Sample Template
+The ./epubbery folder contains the sample book project setup to build with epubbery.
+
+
+== kindlegen: generating Mobi from EPUB
+{KindleGen}[http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211] is a command line tool provided by Amazon which can
+produce KF8 and Mobi format files from a variety of source formats including HTML, XHTML or EPUB.
+
+
 == Other Tools
 
 * {Sigil EPUB Editor}[http://code.google.com/p/sigil/] - a great little tool for directly creating and editing EPUB files.
