@@ -6,3 +6,15 @@ This is by no means a comprehensive survey. Tools that are demonstrated here pro
 * open-source or public domain
 * source files may be stored in a non-proprietary text format
 * entire ebook project is suited to version control (i.e. no reliance on binaries that would need to be merged or regenerated)
+
+
+== pandoc: generating EPUB or PDF
+{pandoc}[http://johnmacfarlane.net/pandoc/] is the open-source swiss-army knife for convert files from one markup format into another.
+Amongst the many formats supported are the ones we're interseted in: EPUB and PDF.
+
+=== Key Software Requirements
+Install the {pandoc}[http://johnmacfarlane.net/pandoc/installing.html] binaries on your system.
+
+=== Sample Template
+The ./pandoc folder contains the sample book project setup to build with pandoc.
+
